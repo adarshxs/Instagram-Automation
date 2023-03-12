@@ -7,14 +7,14 @@ load_dotenv()
 
 file1 = open("moods.txt","r")
 
-st.set_page_config(page_title="Instagram . Automation", page_icon="🤖")
+st.set_page_config(page_title="Instagram | Automation", page_icon="🤖")
 
 st.title("Instagram Caption Generator")
 st.sidebar.header("Instructions")
 st.sidebar.info(
     '''This is a web application that allows you to generate
         captions for your instagram posts! You can describe **the context of your post** and choose the **tone** 
-        for the caption. The caption will be generated using the AI! 
+        for the caption. The caption will be generated using AI! 
        '''
     )
 st.sidebar.info("Pro tip: Make your description specific for best results.")
