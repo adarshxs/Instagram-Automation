@@ -23,7 +23,7 @@ st.markdown(
     "This mini-app generates Instagram captions using OpenAI's GPT-3 based [Davinci model](https://beta.openai.com/docs/models/overview). You can find the code on [GitHub](https://github.com/adarshxs/Instagram-Automation) and the author on [Linkedin](https://www.linkedin.com/in/adarsh-a-s/)."
 )
 
-model_engine = "gpt-3.5-turbo"
+model_engine = "text-davinci-003"
 openai.api_key = os.getenv("api_key")
 
 def main():
